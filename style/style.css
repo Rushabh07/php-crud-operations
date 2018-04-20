@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Spectral SC', serif;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+fieldset{
+	width: 500px;
+	margin: 100px auto;
+	padding: 20px;
+}
+
+input[type="text"],
+input[type="e_mail"],
+input[type="password"]
+{
+	padding: 10px;
+	background: #f1f1f1;
+	margin: 5px 0px 5px 0px;
+	border: 1px solid black;
+	outline: none;
+	width: 250px;
+}
+
+input[type="submit"]
+{
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+}
